@@ -15,9 +15,9 @@ DROP TABLE IF EXISTS "track_album" CASCADE;
 
 
 CREATE TABLE "track" (
-  "track_id" text PRIMARY KEY,
-  "track_name" text,
-  "track_url" text,
+  "id" text PRIMARY KEY,
+  "name" text,
+  "url" text,
   "duration_ms" integer,
   "release_date" timestamp,
   "is_single" BOOLEAN,
@@ -25,8 +25,8 @@ CREATE TABLE "track" (
 );
 
 CREATE TABLE "album" (
-  "album_id" text PRIMARY KEY,
-  "album_name" text,
+  "id" text PRIMARY KEY,
+  "name" text,
   "release_date" timestamp,
   "album_url" text,
   "total_tracks" integer,
@@ -37,7 +37,7 @@ CREATE TABLE "album" (
 );
 
 CREATE TABLE "artist" (
-  "artist_id" text PRIMARY KEY,
+  "id" text PRIMARY KEY,
   "name" text,
   "url" text,
   "image_640_url" text,
@@ -65,16 +65,16 @@ CREATE TABLE "track_album" (
   "album_id" text
 );
 
-ALTER TABLE "artist_track" ADD FOREIGN KEY ("artist_id") REFERENCES "artist" ("artist_id");
+ALTER TABLE "artist_track" ADD FOREIGN KEY ("artist_id") REFERENCES "artist" ("id");
 
-ALTER TABLE "artist_album" ADD FOREIGN KEY ("artist_id") REFERENCES "artist" ("artist_id");
+ALTER TABLE "artist_album" ADD FOREIGN KEY ("artist_id") REFERENCES "artist" ("id");
 
-ALTER TABLE "artist_track" ADD FOREIGN KEY ("track_id") REFERENCES "track" ("track_id");
+ALTER TABLE "artist_track" ADD FOREIGN KEY ("track_id") REFERENCES "track" ("id");
 
-ALTER TABLE "artist_album" ADD FOREIGN KEY ("album_id") REFERENCES "album" ("album_id");
+ALTER TABLE "artist_album" ADD FOREIGN KEY ("album_id") REFERENCES "album" ("id");
 
-ALTER TABLE "artist_genre" ADD FOREIGN KEY ("artist_id") REFERENCES "artist" ("artist_id");
+ALTER TABLE "artist_genre" ADD FOREIGN KEY ("artist_id") REFERENCES "artist" ("id");
 
-ALTER TABLE "track_album" ADD FOREIGN KEY ("track_id") REFERENCES "track" ("track_id");
+ALTER TABLE "track_album" ADD FOREIGN KEY ("track_id") REFERENCES "track" ("id");
 
-ALTER TABLE "track_album" ADD FOREIGN KEY ("album_id") REFERENCES "album" ("album_id");
+ALTER TABLE "track_album" ADD FOREIGN KEY ("album_id") REFERENCES "album" ("id");
