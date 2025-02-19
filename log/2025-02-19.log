@@ -1,0 +1,33 @@
+2025-02-19 15:08:01,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:08:01,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:08:01,INFO,Get new spotify token
+2025-02-19 15:09:02,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:09:02,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:09:02,INFO,Get new spotify token
+2025-02-19 15:10:01,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:10:01,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:10:01,INFO,Get new spotify token
+2025-02-19 15:11:02,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:11:02,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:11:02,INFO,Get new spotify token
+2025-02-19 15:12:01,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:12:01,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:12:01,INFO,Get new spotify token
+2025-02-19 15:13:01,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:13:01,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:13:01,INFO,Get new spotify token
+2025-02-19 15:14:01,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:14:01,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:14:01,INFO,Get new spotify token
+2025-02-19 15:15:02,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:15:02,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:15:02,INFO,Get new spotify token
+2025-02-19 15:16:02,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:16:02,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:16:02,INFO,Get new spotify token
+2025-02-19 15:17:02,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:17:02,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:17:02,INFO,Get new spotify token
+2025-02-19 15:18:02,DEBUG,Starting new HTTPS connection (1): accounts.spotify.com:443
+2025-02-19 15:18:02,DEBUG,https://accounts.spotify.com:443 "POST /api/token HTTP/1.1" 400 26
+2025-02-19 15:18:02,INFO,Get new spotify token

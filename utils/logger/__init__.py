@@ -6,7 +6,7 @@ today = datetime.now().strftime("%Y-%m-%d")
 
 
 basicConfig(
-    filename=f"log/{today}.log",
+    filename=f"/Users/theolam/Desktop/spotify_etl/log/{today}.log",
     encoding="utf-8",
     filemode="a",
     format="{asctime},{levelname},{message}",
