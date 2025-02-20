@@ -80,23 +80,23 @@ These are example of pipeline log files and crontab log:
 
 Here are examples from database tables
 
-**Track**
+**Track**  
 ![Track table](/images/track.png)
 
-**Artist**
+**Artist**  
 ![Artist table](/images/artist.png)
 
-**Album**
+**Album**  
 ![Album table](/images/album.png)
 
-**Artist_track**
+**Artist_track**  
 ![Artist_track table](/images/artist_track.png)
 
-**Artist_album**
+**Artist_album**  
 ![Artist_album table](/images/artist_album.png)
 
-**Artist_genre**  
+**Artist_genre**    
 ![Artist_genre table](/images/artist_genre.png)
 
-**Track_album**  
+**Track_album**    
 ![Track_album table](/images/track_album.png)
