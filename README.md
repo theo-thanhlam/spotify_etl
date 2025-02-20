@@ -45,7 +45,7 @@ All of these will be automated by CRON task.
 - `spotify`: Handle authentication with Spotify API
 
 ### Database Design
-![Database Design](images\database_design.png)
+![Database Design](images/database_design.png)
 There are 2 types of tables:
 1. Main tables: artist, track and album
 2. Relational tables: artist_track, artist_album, artist_genre, track_album
