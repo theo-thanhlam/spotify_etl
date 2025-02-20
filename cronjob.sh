@@ -1,4 +1,6 @@
-cd /Users/theolam/Desktop/spotify_etl
+#!/bin/bash
+
+cd /path/to/spotify_etl
 source .venv/bin/activate
-ls -l .env
-# python3 main.py
+python3 main.py
+      

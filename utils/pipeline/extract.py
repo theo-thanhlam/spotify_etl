@@ -20,6 +20,9 @@ def get_tracks_by_genre(genre:str, token:Dict[str,any],offset:int=0,limit:int=20
         tracks (Dict[str,any]): A response detail from Spotify API
     
     """
+    if offset+limit >= 1000:
+        logger.error("Exceed maximum offset")
+        raise ValueError("Exceed maximum offset")
     ENDPOINT = f"{SPOTIFY_API_URL_PREFIX}/search?q=genre:{genre}&type=track&offset={offset}&limit={limit}"
     headers = spotify.get_auth_header(token=token)
     response = requests.get(url=ENDPOINT, headers=headers)

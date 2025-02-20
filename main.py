@@ -65,8 +65,7 @@ def load_task(transform_result:Dict[str,list], engine):
     
 
 def main():
-     #Spotify handler
-    token = spotify.get_token()
+
     #Database Session
     engine = database.get_engine()
     
@@ -94,13 +93,19 @@ def main():
     logger.info(f"Extract duration:{extract_duration}")
     logger.info(f"Transform duration:{transform_duration}")
     logger.info(f"Load duration:{load_duration}")
-    print("DONE TASK")
+    
 
     
     
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+        print("ETL pipeline completed")
+    except ValueError as err:
+        print(f"Error in ETL pipeline:\n{err}")
+    except Exception as err:
+        print(f"Error in ETL pipeline:\n{err}")
     
    
    
